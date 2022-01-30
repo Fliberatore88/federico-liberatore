@@ -12,7 +12,7 @@ app.get ('/', (req,res) => {
 
 app.listen(process.env.PORT || 2828, (err) => {
     if (err){
-        console.log('Error', err)
+        console.log('Errorr', err)
     }else {
         console.log('Levantó el Server correctamente')
     }
